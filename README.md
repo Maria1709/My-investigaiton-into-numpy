@@ -1,4 +1,4 @@
-# My-investigaton-into-numpyNumPy.Random package
+## My-investigaton-into-numpyNumPy.Random package
 
 The overall purpose of the NumPy. Random package is for scientific computing with python. It has a powerful N-dimensional array object, some sophisticated functions, tools for integrating C/C++ and Fortran code. It’s also used for linear algebra, Fourier transform and random number capabilities.
 NumPy can also be used as an efficient multidimensional container of generic data, this means that arbitrary data types can be defined allowing NumPy to be faster and more efficient at working with other databases.
@@ -33,6 +33,8 @@ plt.show()
 
 
 x = np.random.uniform(0,10,100)
+
+
 
 
 
