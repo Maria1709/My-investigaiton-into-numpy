@@ -34,6 +34,22 @@ plt.show()
 
 x = np.random.uniform(0,10,100)
 
+# Numpy.random.rand
+
+
+
+
+
+
+
+# Numpy.random.sample
+
+
+
+
+
+
+# Numpy.random.beta
 
 
 
