@@ -53,7 +53,28 @@ Random values in a given shape.
 Create an array of the given shape and populate it with r
 nandom samples from a uniform distribution over [0, 1).
 
+# creates an array of the given shape
 
+x = np.random.rand(10)
+x
+
+array([ 0.23682728,  0.62756037,  0.94301737,  0.69327749,  0.83978074,
+        0.76425897,  0.77574374,  0.91636499,  0.78126268,  0.81175193])
+        
+     
+
+# Numpy.random sample
+Generates a random sample given from a 1-d array parameters = if an ndarray, a random sample is generated from its elements. If an int, the random sample is generated as if a were np.arange(a)
+
+Output shape. If the given shape is for example (m, n, k), then m n k samples are takenm the default will be none,and a single value will be returned.
+
+If the sample is with or without replacement
+
+p : 1-D array-like, optional then i The probabilities associated with each entry in A. If we are not given the sample then it presumes that a uniform distribution over all otehr inpupts.
+
+Returns = sample = single item ndarray, generated random samples
+
+Raises: valueError = if A is an integer less than 0, or if A or P are not 1 dimensional if a is an array-like of size 0, if p is not a vector of probabilities, if a and p have different lengths, or if replace=False and the sample size is greater than the population size
 
 
 
@@ -71,10 +92,6 @@ nandom samples from a uniform distribution over [0, 1).
 # Numpy.random.beta
 
 
-
-
-plt.hist(x)
-plt.show()
 
 
 
