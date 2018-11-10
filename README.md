@@ -112,18 +112,7 @@ array([3, 1, 0])
 
 np.random.choice(5, 3, replace=False, p=[0.1, 0, 0.3, 0.6, 0])
 
-out = array([2, 3, 0])
-
-
-
-
-
-
-
-
-
-
-
+out = array([2, 3, 0].
 
 
 
@@ -154,6 +143,21 @@ Returns:
 out : ndarray or scalar
 
 #n is the number of trial and p is the probability of success and then n is the number of successed. if we were trying to estimate the standard error of the proportion of the population bu using the random sample then the normal distribution works well under the prduct pn and x<5, where p is the population proportion estimate. where n is the no of samples in which case the binomial distribution is used instead. example is 4 people with autism and 11 without autism, then p = 4/15 = 27%, then 0.2715 = 4. showing the binomial distribution should be used in this case.
+
+
+![binomial](https://user-images.githubusercontent.com/35726074/48302235-02809580-e4f2-11e8-9467-37c6c9561ece.png)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
