@@ -4,7 +4,7 @@ The overall purpose of the NumPy. Random package is for scientific computing wit
 NumPy can also be used as an efficient multidimensional container of generic data, this means that arbitrary data types can be defined allowing NumPy to be faster and more efficient at working with other databases.
 Numpy.random
 
-numpy.ramdpom.normal
+numpy.ramdom.normal
 
 [normal](https://user-images.githubusercontent.com/35726074/48302959-bd616100-e4fb-11e8-984c-560beff6fcae.png)
 
