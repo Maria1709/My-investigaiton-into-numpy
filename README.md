@@ -48,6 +48,12 @@ This method gives everyone a fair and equal chance to be in the selected sample.
 
 
 # Numpy.random.rand
+numpy.random.rand(d0, d1, ..., dn)
+Random values in a given shape.
+Create an array of the given shape and populate it with r
+nandom samples from a uniform distribution over [0, 1).
+
+
 
 
 
@@ -78,10 +84,5 @@ plt.show()
 
 
 
-
-
-numpy.random.rand(d0, d1, ..., dn)
-Random values in a given shape.
-Create an array of the given shape and populate it with random samples from a uniform distribution over [0, 1).
 
 
