@@ -77,6 +77,18 @@ Returns = sample = single item ndarray, generated random samples
 Raises: valueError = if A is an integer less than 0, or if A or P are not 1 dimensional if a is an array-like of size 0, if p is not a vector of probabilities, if a and p have different lengths, or if replace=False and the sample size is greater than the population size
 
 
+# Numpy.random choice examples
+
+import numpy as np
+>>> a = [1,4,1,3,3,2,1,4]
+>>> np.random.choice(a)
+>>> 4
+>>> a
+>>> [1,4,1,3,3,2,1,4]
+
+
+or
+
 import random
 from scipy import *
 print(random)
