@@ -122,7 +122,10 @@ out = array([2, 3, 0].
 
 Numpy.random.beta is a special case of the Dirichlet distribution, and is also realted to the Gamma distribution. it includes the probality distibtution function, where the normalisation B is the beta function. These are the parameters = 1,float or array like of floats (alpha/non negative)2, float or array like of floats (beta/non negative) 3. size = int or tuple of ints, optional (output shape if given) Eg: e.g., (m, n, k), then m n k samples are drawn. If size is None (default), a single value is returned if a and b are both scalars. Otherwise, np.broadcast(a, b).size samples are drawn.
 
-Returns: our = ndarray or scalar (samples drawn from teh parameterized beta distribution.
+Returns: our = ndarray or scalar (samples drawn from teh parameterized beta distribution.![beta](https://user-images.githubusercontent.com/35726074/48302305-f1845400-e4f2-11e8-826c-946325ac0500.png)
+
+
+
 
 # Numpy.random.binomial
 
