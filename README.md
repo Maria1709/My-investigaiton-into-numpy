@@ -6,7 +6,7 @@ Numpy.random
 
 numpy.ramdpom.normal
 
-
+[normal](https://user-images.githubusercontent.com/35726074/48302959-bd616100-e4fb-11e8-984c-560beff6fcae.png)
 
 Numpy.random.rand
 This function gives random values in a given shape, for example you can have ? amount of rows, columns or overall depth.
