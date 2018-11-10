@@ -135,6 +135,28 @@ Numpy.random.beta is a special case of the Dirichlet distribution, and is also r
 
 Returns: our = ndarray or scalar (samples drawn from teh parameterized beta distribution.
 
+# Numpy.random.binomial
+
+This draws samples from a binomial distribution with specified parameters, n trials and p probablility of success where n an integere >=0 and p is in the interval between 0-1, it may be inputted as a flaot but in turn will be changed into an integer. Below are the parameter and returns Parameters:
+
+n : int or array_like of ints
+
+p : float or array_like of floats
+
+This is the Parameter of the distribution, >= 0 and <=1.
+
+size : int or tuple of ints, optional
+
+Output shape. If the given shape is, e.g., (m, n, k), then m * n * k samples are drawn. If size is None (default), a single value is returned if n and p are both scalars. Otherwise, np.broadcast(n, p).size samples are drawn.
+
+Returns:
+
+out : ndarray or scalar
+
+#n is the number of trial and p is the probability of success and then n is the number of successed. if we were trying to estimate the standard error of the proportion of the population bu using the random sample then the normal distribution works well under the prduct pn and x<5, where p is the population proportion estimate. where n is the no of samples in which case the binomial distribution is used instead. example is 4 people with autism and 11 without autism, then p = 4/15 = 27%, then 0.2715 = 4. showing the binomial distribution should be used in this case.
+
+
+
 
 
 
