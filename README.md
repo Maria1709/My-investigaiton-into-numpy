@@ -142,7 +142,7 @@ Returns: our = ndarray or scalar (samples drawn from teh parameterized beta dist
 
 https://www.google.com/search?q=expalin+simple+random+data&ie=utf-8&oe=utf-8&client=firefox-b
 https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Descriptive_Statistics-Summary_Tables.pdf
-
+https://docs.scipy.org/doc/numpy-1.15.0/reference/generated/numpy.random.binomial.html
 https://www.packtpub.com/mapt/book/big_data_and_business_intelligence/9781785884870/2/ch02lvl1sec20/python-random-numbers-in-jupyter
 
 https://rasbt.github.io/mlxtend/user_guide/evaluate/permutation_test/
