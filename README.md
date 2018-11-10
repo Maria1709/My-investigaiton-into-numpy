@@ -109,7 +109,7 @@ out = array([2, 3, 0])
 
 
 
-# Numpy.random.sample
+
 
 
 
