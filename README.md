@@ -126,7 +126,17 @@ Returns: our = ndarray or scalar (samples drawn from teh parameterized beta dist
 
 
 
+##References
 
+https://www.google.com/search?q=expalin+simple+random+data&ie=utf-8&oe=utf-8&client=firefox-b
+https://ncss-wpengine.netdna-ssl.com/wp-content/themes/ncss/pdf/Procedures/NCSS/Descriptive_Statistics-Summary_Tables.pdf
+
+https://rasbt.github.io/mlxtend/user_guide/evaluate/permutation_test/
+https://docs.scipy.org/doc/numpy-1.15.1/reference/generated/numpy.random.randn.html#numpy.random.randn
+
+
+https://www.ohbmbrainmappingblog.com/blog/a-brief-overview-of-permutation-testing-with-examples
+https://matthew-brett.github.io/les-pilot/permuter.html
 
 
 
