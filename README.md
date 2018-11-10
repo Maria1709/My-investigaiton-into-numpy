@@ -77,6 +77,33 @@ Returns = sample = single item ndarray, generated random samples
 Raises: valueError = if A is an integer less than 0, or if A or P are not 1 dimensional if a is an array-like of size 0, if p is not a vector of probabilities, if a and p have different lengths, or if replace=False and the sample size is greater than the population size
 
 
+import random
+from scipy import *
+print(random)
+
+#this is the same as np.radom.randint.
+np.random.choice(5, 3)
+array([0, 3, 4])
+
+out = array([0, 3, 4])
+
+np.random.choice(5, 3, p=[0.1, 0, 0.3, 0.6, 0])
+array([3, 3, 0])
+
+out = array([3, 3, 0])
+
+#This is the same as np.random.permutation
+np.random.choice(5, 3, replace=False)
+array([3,1,0])
+
+array([3, 1, 0])
+
+np.random.choice(5, 3, replace=False, p=[0.1, 0, 0.3, 0.6, 0])
+
+out = array([2, 3, 0])
+
+
+
 
 
 
@@ -92,6 +119,9 @@ Raises: valueError = if A is an integer less than 0, or if A or P are not 1 dime
 # Numpy.random.beta
 
 
+Numpy.random.beta is a special case of the Dirichlet distribution, and is also realted to the Gamma distribution. it includes the probality distibtution function, where the normalisation B is the beta function. These are the parameters = 1,float or array like of floats (alpha/non negative)2, float or array like of floats (beta/non negative) 3. size = int or tuple of ints, optional (output shape if given) Eg: e.g., (m, n, k), then m n k samples are drawn. If size is None (default), a single value is returned if a and b are both scalars. Otherwise, np.broadcast(a, b).size samples are drawn.
+
+Returns: our = ndarray or scalar (samples drawn from teh parameterized beta distribution.
 
 
 
