@@ -151,6 +151,25 @@ out : ndarray or scalar
 ![binomial](https://user-images.githubusercontent.com/35726074/48302235-02809580-e4f2-11e8-9467-37c6c9561ece.png)
 
 
+# Numpy.random.poisson
+
+Drawing samples from the poisson distribution, the limit of the binomial distribution for large N.
+
+below are the parameters and the returns. Parameters:
+
+lam : float or array_like of floats
+
+Expectation of interval, should be >= 0. A sequence of expectation intervals must be broadcastable over the requested size.
+
+size : int or tuple of ints, optional
+
+Output shape. If the given shape is, e.g., (m, n, k), then m * n * k samples are drawn. If size is None (default), a single value is returned if lam is a scalar. Otherwise, np.array(lam).size samples are drawn.
+
+Returns:
+
+out : ndarray or scalar
+
+
 
 
 
