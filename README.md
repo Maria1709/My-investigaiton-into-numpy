@@ -171,6 +171,8 @@ out : ndarray or scalar
 
 
 
+![poisson](https://user-images.githubusercontent.com/35726074/48302409-6dcb6700-e4f4-11e8-897f-40ec092176fd.png)
+
 
 
 
