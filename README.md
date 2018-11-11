@@ -179,13 +179,26 @@ out : ndarray or scalar
 ![poisson](https://user-images.githubusercontent.com/35726074/48302409-6dcb6700-e4f4-11e8-897f-40ec092176fd.png)
 
 
-
-
-
+## Permutation tests
 Permutation tests were first were first introduced by RA Fisher in 1935. They were invented to test hypotheses where where relabeling observed the conditional distribution of the test statistic under the null hypotheses, where all relabelling of the data are completely likley.
+Permutation tests are also called exact tests, randomization tests or re-randomizations tests, these are non parametric tests to test the null pypythsis that two different groups come from the same distribution. A permutation test can be used for either significance or hypthesis testing without having to make any assumptions about the sampling distribution. 
+Treatment = Control under the null pypothesis, there are n and m permutations where n = number of records in the treatmetn sample, and m = is the numner of records in the control sample. in a 2 sided test we define the alternative hypothesis saying that the two samples are different. Eg treatemtn! = control.
+Layout for this is 
+1. compute the difference of sample x and y.
+2. combine total measurements into a single dataset
+3. draw a permuted dataset for all possible permutations in dataset  in 2
+4. devide this dataset into 2 x & y of size n & m 
+5. compute difference which is the mean of  x & y
+6. and then all we have to do then is repeat steps 3-5 until we have covered all permutations
+7. then return the p value as the no of times the difference form the original value and then devide this by the no of total permutations.
+Example of a permutation test below
 
+p.random.permutation(x)
 
-
+array([ 0.8983524 ,  0.90655272,  0.80294288,  0.39473967,  0.4945817 ,
+        0.07228575,  0.37447956,  0.59473079,  0.20067274,  0.4825464 ]
+        
+     
 
 
 
