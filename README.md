@@ -182,7 +182,7 @@ out : ndarray or scalar
 
 
 
-
+Permutation tests were first were first introduced by RA Fisher in 1935. They were invented to test hypotheses where where relabeling observed the conditional distribution of the test statistic under the null hypotheses, where all relabelling of the data are completely likley.
 
 
 
